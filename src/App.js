@@ -3,6 +3,7 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 const API_URL = `https://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
 
@@ -48,6 +49,7 @@ const App = () => {
         </div>
       )}
        <SpeedInsights />
+       <Analytics  />
     </div>
   );
 };
