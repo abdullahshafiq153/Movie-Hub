@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
 
@@ -47,7 +46,6 @@ const App = () => {
           <h2>No Movies Found</h2>
         </div>
       )}
-      <SpeedInsights />
     </div>
   );
 };
