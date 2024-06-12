@@ -15,7 +15,7 @@ Movie Hub allows you to search for movies using the OMDB API. Simply enter a mov
 ## Live Demo
 
 Check out the live demo of Movie Hub 
-[https://moviehub-beta.vercel.app/]
+https://moviehub-beta.vercel.app/
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To get started with Movie Hub, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone [https://github.com/abdullahshafiq153/Movie-Hub.git]
+   git clone https://github.com/abdullahshafiq153/Movie-Hub.git
    ```
 
 2. Navigate to the project directory:
@@ -41,7 +41,7 @@ To get started with Movie Hub, follow these steps:
    npm start
    ```
 
-5. Open [http://localhost:3000] in your browser to view Movie Hub.
+5. Open http://localhost:3000 in your browser to view Movie Hub.
 
 ## Learn More
 
