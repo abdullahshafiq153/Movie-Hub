@@ -39,9 +39,9 @@ To get started with Movie Hub, follow these steps:
 5.  Once you have signed up, check your email for the API key.
 6.  Create a `.env` file in the main Movie-Hub directory.
 7.  Inside the `.env` file, add the following line and replace `YOUR_OMDB_API_KEY` with your actual API key:
-```
-REACT_APP_OMDB_API_KEY=YOUR_OMDB_API_KEY
-```
+   ```
+   REACT_APP_OMDB_API_KEY=YOUR_OMDB_API_KEY
+   ```
 8. Start the development server:
    ```
    npm start
